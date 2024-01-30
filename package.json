@@ -14,12 +14,15 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
     "axios": "^1.4.0",
+    "dayjs": "^1.11.9",
     "element-plus": "^2.3.14",
     "normalize.css": "^8.0.1",
     "nprogress": "^0.2.0",
     "pinia": "^2.1.6",
     "vue": "^3.3.4",
-    "vue-router": "^4.2.4"
+    "vue-router": "^4.2.4",
+    "unplugin-auto-import": "0.16.6",
+    "unplugin-compression": "^0.0.5"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.4.0",
@@ -33,7 +36,8 @@
     "@iconify-json/ep": "^1.1.11",
     "@vueuse/core": "^10.4.1",
     "http-proxy": "^1.18.1",
-    "node-sass": "^9.0.0",
-    "sass": "^1.68.0"
+    "sass-loader": "^8.0.2",
+    "sass": "^1.68.0",
+    "unplugin-vue-components": "^0.23.0"
   }
 }
