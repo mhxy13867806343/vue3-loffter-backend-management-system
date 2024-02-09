@@ -26,7 +26,7 @@ function generateRouteMap() {
 }
 router.getFullPath = function (route) {
   let r = routeMap.get(route.meta.key)
-  if (r) {
+  if ( r ) {
     return r.path
   }
 }

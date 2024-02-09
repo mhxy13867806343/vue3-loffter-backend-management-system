@@ -1,6 +1,7 @@
 export default {
+  weight: -11,
   meta: {
-    name: '不管',
+    name: '列表',
     hidden: true,
   }
 }

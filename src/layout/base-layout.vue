@@ -41,12 +41,7 @@ function togglePosition() {
                         <Moon v-else />
                     </el-icon>
                 </el-button>
-                <el-button @click="togglePosition()" size="small">
-                    <el-icon>
-                        <TopRight v-if="menuPositionStorge == 'vertical'" />
-                        <BottomLeft v-else />
-                    </el-icon>
-                </el-button>
+              
                 <el-dropdown>
                     <span class="el-dropdown-link">
                         <el-avatar :size="26" src="" style="margin-right:5px;" />

@@ -6,4 +6,11 @@
   <RouterView />
 </template>
 
-<style></style>
+<style>
+.app-container,.app-container-header{
+  padding: 20px;
+}
+.app-container-divider{
+  background: transparent;
+}
+</style>

@@ -1,6 +1,7 @@
 export default {
   meta: {
-    name: '不管',
+    name: '商品',
+    icon: 'GobletSquareFull',
     hidden: true,
   }
 }
